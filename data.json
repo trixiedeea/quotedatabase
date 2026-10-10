@@ -1,0 +1,626 @@
+{
+    "schema": [
+        {
+            "id": "author",
+            "label": "Author",
+            "type": "text",
+            "required": true
+        },
+        {
+            "id": "subject",
+            "label": "Subject",
+            "type": "multiselect",
+            "required": true,
+            "options": [
+                "Literacy",
+                "Opportunity",
+                "Curiosity",
+                "Confidence",
+                "Equity",
+                "Imagination",
+                "Leadership",
+                "Child Development",
+                "Book Access",
+                "Impact",
+                "Book Donation",
+                "Identity",
+                "Diversity",
+                "Equality",
+                "Engagement",
+                "Native Culture",
+                "Tribal Storytelling",
+                "Cultural Preservation"
+            ]
+        },
+        {
+            "id": "type",
+            "label": "Type",
+            "type": "select",
+            "required": true,
+            "options": [
+                "Testimonial",
+                "Interview",
+                "Observation",
+                "Blog Post",
+                "Survey Response",
+                "Speech",
+                "Report",
+                "Media Interview",
+                "Organizational Statement"
+            ]
+        },
+        {
+            "id": "theme",
+            "label": "Theme",
+            "type": "multiselect",
+            "required": true,
+            "options": [
+                "Literacy",
+                "Leadership",
+                "Reading",
+                "Access",
+                "Scale of Impact",
+                "Books as Tools",
+                "Access Equity",
+                "Empowerment",
+                "Family & Engagement",
+                "Tradition",
+                "Representation",
+                "Education",
+                "Nuture",
+                "Community",
+                "Resilience"
+            ]
+        },
+        {
+            "id": "book_ecosystem",
+            "label": "Book Ecosystem",
+            "type": "select",
+            "required": true,
+            "options": [
+                "Kenya",
+                "Ukraine",
+                "Reading Nation Waterfall",
+                "Nebraska",
+                "New Mexico-Zuni Pueble",
+                "California",
+                "Book Ecosystems"
+            ]
+        },
+        {
+            "id": "link_to_source",
+            "label": "Link to Source",
+            "type": "text",
+            "required": false
+        },
+        {
+            "id": "verified",
+            "label": "Verified",
+            "type": "radio",
+            "required": true,
+            "options": [
+                "Yes",
+                "No"
+            ]
+        },
+        {
+            "id": "use_strategy",
+            "label": "Use Strategy",
+            "type": "textarea",
+            "required": false
+        },
+        {
+            "id": "quote",
+            "label": "Quote",
+            "type": "textarea",
+            "required": true
+        }
+    ],
+    "quotes": [
+        {
+            "date_added": "2026-07-16",
+            "id": "q_97fwxawy48g",
+            "values": {
+                "date_added": "2026-07-16",
+                "author": "Dr. Charles Nzivo  CEO of Kenya National Library Service",
+                "quote": "Literacy is the foundation of opportunity, sparks curiosity, builds confidence and bridges divides.",
+                "subject": [
+                    "Literacy",
+                    "Opportunity",
+                    "Curiosity",
+                    "Confidence",
+                    "Equity"
+                ],
+                "type": [
+                    "Testimonial"
+                ],
+                "theme": [
+                    "Literacy"
+                ],
+                "book_ecosystem": "Kenya",
+                "link_to_source": "https:\/\/www.youtube.com\/watch?v=7oz_LSfyZHQ",
+                "verified": "Yes",
+                "use_strategy": "Foundational mission statement positioning literacy as the entry point to opportunity \u2014 suited for an opening or overview quote."
+            }
+        },
+        {
+            "date_added": "2026-07-16",
+            "id": "q_10bl2xp0s86",
+            "values": {
+                "date_added": "2026-07-16",
+                "quote": "When children read they dream. When they dream, they grow, they lead, and they lift others with them.",
+                "author": "Dr. Charles Nzivo  CEO of Kenya National Library Service",
+                "subject": [
+                    "Imagination",
+                    "Leadership",
+                    "Child Development"
+                ],
+                "type": [
+                    "Observation"
+                ],
+                "theme": [
+                    "Reading",
+                    "Leadership"
+                ],
+                "book_ecosystem": "Kenya",
+                "link_to_source": "https:\/\/www.youtube.com\/watch?v=7oz_LSfyZHQ",
+                "verified": "Yes",
+                "use_strategy": "Aspirational, cascading logic (read \u2192 dream \u2192 grow \u2192 lead \u2192 lift others) \u2014 strong for a closing statement or call to action."
+            }
+        },
+        {
+            "date_added": "2026-07-16",
+            "id": "q_h2d4lqf3av6",
+            "values": {
+                "date_added": "2026-07-16",
+                "author": "Nyakundi James Nyambane  Head Librarian KEY Libraries Trust",
+                "subject": [
+                    "Child Development",
+                    "Book Access",
+                    "Literacy"
+                ],
+                "type": [
+                    "Observation"
+                ],
+                "theme": [
+                    "Access",
+                    "Literacy",
+                    "Scale of Impact"
+                ],
+                "link_to_source": "https:\/\/www.youtube.com\/watch?v=7oz_LSfyZHQ",
+                "verified": "Yes",
+                "use_strategy": "Ties the program's rationale directly to outcomes (early literacy, lifelong readers, self-belief) \u2014 useful for explaining program purpose in grant narratives.",
+                "quote": "The right books in the right hands at the right time can transform a child\u2019s world. And that\u2019s what we believe the Soma Safari Initiative will do and in turn spark early literacy, inspire life long readers, help children across Kenya believe in their dreams and see a world full of possibilities through the stories they read",
+                "book_ecosystem": "Kenya"
+            }
+        },
+        {
+            "date_added": "2026-07-16",
+            "id": "q_ih4j6f05xec",
+            "values": {
+                "date_added": "2026-07-16",
+                "quote": "We are bringing the magic of books to children who need them most A full shipping container carrying 8,000 books and 72 free library book sharing boxes will soon arrive in Kenya. Opening doors to imagination, opportunity, and lifelong learning. In Kenya, access to books remains a challenge.",
+                "use_strategy": "Concrete, quantified impact statement (8,000 books, 72 book-sharing boxes) paired with an access-gap framing \u2014 ideal for donor reports or press releases needing hard numbers alongside emotional appeal.",
+                "verified": "Yes",
+                "link_to_source": "https:\/\/www.youtube.com\/watch?v=7oz_LSfyZHQ",
+                "book_ecosystem": "Kenya",
+                "author": "Dr. Charles Nzivo  CEO of Kenya National Library Service",
+                "theme": [
+                    "Access",
+                    "Access Equity",
+                    "Scale of Impact"
+                ],
+                "type": [
+                    "Observation"
+                ],
+                "subject": [
+                    "Book Donation",
+                    "Book Access",
+                    "Impact"
+                ]
+            }
+        },
+        {
+            "date_added": "2026-07-16",
+            "id": "q_92f0ix43bde",
+            "values": {
+                "date_added": "2026-07-16",
+                "quote": "Through Soma Safari, we are not just delivering books, we are delivering an adventure, stories that transport children to distant lands and new ideas, belonging( books that reflect their identities and expand their world views)\nHope (the tools to imagine a brighter future and the skills to achieve it)",
+                "author": "Dr. Charles Nzivo  CEO of Kenya National Library Service",
+                "type": [
+                    "Interview"
+                ],
+                "book_ecosystem": "Kenya",
+                "use_strategy": "Articulates the program's value beyond material book delivery \u2014 adventure, belonging, and hope \u2014 useful for mission or vision statements.",
+                "verified": "Yes",
+                "theme": [
+                    "Empowerment",
+                    "Access"
+                ],
+                "link_to_source": "https:\/\/www.youtube.com\/watch?v=7oz_LSfyZHQ",
+                "subject": [
+                    "Book Access",
+                    "Book Donation",
+                    "Impact"
+                ]
+            }
+        },
+        {
+            "date_added": "2026-07-16",
+            "id": "q_wodgjg38ltd",
+            "values": {
+                "date_added": "2026-07-16",
+                "quote": "Kenya is a nation of vibrant diversity but unequal access to books limits potential.",
+                "author": "Dr. Charles Nzivo  CEO of Kenya National Library Service",
+                "type": [
+                    "Observation"
+                ],
+                "book_ecosystem": "Kenya",
+                "use_strategy": "Problem-framing statement naming the equity gap the program exists to close \u2014 useful in needs-assessment or introduction sections.",
+                "verified": "Yes",
+                "theme": [
+                    "Access",
+                    "Access Equity"
+                ],
+                "link_to_source": "https:\/\/www.youtube.com\/watch?v=7oz_LSfyZHQ",
+                "subject": [
+                    "Equity",
+                    "Diversity"
+                ]
+            }
+        },
+        {
+            "date_added": "2026-07-16",
+            "id": "q_vtmrei9d28k",
+            "values": {
+                "date_added": "2026-07-16",
+                "quote": "Nurture early literacy so every child can fall in love with reading. Empower a new generation of readers, thinkers, and leaders!",
+                "author": "Dr. Charles Nzivo  CEO of Kenya National Library Service",
+                "type": [
+                    "Observation"
+                ],
+                "book_ecosystem": "Kenya",
+                "use_strategy": "Tagline-style call to action \u2014 well suited to campaign taglines, video captions, or social media.",
+                "link_to_source": "https:\/\/www.youtube.com\/watch?v=7oz_LSfyZHQ",
+                "verified": "Yes",
+                "theme": [
+                    "Empowerment",
+                    "Scale of Impact"
+                ],
+                "subject": [
+                    "Literacy",
+                    "Diversity",
+                    "Leadership",
+                    "Child Development"
+                ]
+            }
+        },
+        {
+            "date_added": "2026-07-16",
+            "id": "q_y8gaw4smbyb",
+            "values": {
+                "date_added": "2026-07-16",
+                "quote": "Books, especially those which encourage young children to read with their families, promote their engagement, curiosity and natural desire to learn and hear about something new. Children will automatically engage with books that are relevant to their world, and which they have immediate access to. The receipt of this grant will put more books in children\u2019s hands, and therefore more opportunities for families to engage with each other and promote learning in our Native cultures and environments.",
+                "author": "Jo Williams  Zone 5 Representative, National Indian Head Start Directors Association",
+                "type": [
+                    "Interview"
+                ],
+                "book_ecosystem": "Reading Nation Waterfall",
+                "use_strategy": "Links book access to family engagement and cultural relevance \u2014 supports a grant narrative on family and community literacy outcomes.",
+                "verified": "Yes",
+                "theme": [
+                    "Family & Engagement",
+                    "Books as Tools",
+                    "Tradition"
+                ],
+                "link_to_source": "https:\/\/www.myreadingnation.com\/",
+                "subject": [
+                    "Engagement",
+                    "Native Culture",
+                    "Cultural Preservation",
+                    "Tribal Storytelling"
+                ]
+            }
+        },
+        {
+            "date_added": "2026-07-16",
+            "id": "q_g1s020psmcv",
+            "values": {
+                "date_added": "2026-07-16",
+                "quote": "Growing up in a Tribal home you experience the benefits of family members telling you stories of how things happened, for example, \u2018How the skunk got his tail\u2018 or \u2018Why the possum plays dead\u2018. Tribal people know the benefits of storytelling to the young children in close proximity (sitting on grandma\u2019s lap). We appreciate the efforts of UNC Greensboro in recognizing the benefits of reading to young children and wanting to get books into Tribal homes. We hope that this is only the beginning and in the future more Tribal programs will get the benefits of reading to children.",
+                "author": "Tina Routh  President - National Indian Head Start Directors Association",
+                "type": [
+                    "Interview"
+                ],
+                "book_ecosystem": "Reading Nation Waterfall",
+                "use_strategy": "Frames the program as extending an existing oral storytelling tradition into book-based literacy, emphasizing continuity rather than replacement.\n",
+                "verified": "Yes",
+                "link_to_source": "https:\/\/www.myreadingnation.com\/",
+                "theme": [
+                    "Tradition",
+                    "Books as Tools"
+                ],
+                "subject": [
+                    "Cultural Preservation",
+                    "Tribal Storytelling",
+                    "Identity",
+                    "Native Culture"
+                ]
+            }
+        },
+        {
+            "date_added": "2026-07-17",
+            "id": "q_igkc5eo21l8",
+            "values": {
+                "date_added": "2026-07-17",
+                "quote": "The children added their unique touches\u2026 using paint, stickers\u2026 imagination",
+                "use_strategy": "Showing the value, engagement and varied opportunities the program can contribute towards",
+                "verified": "Yes",
+                "link_to_source": "https:\/\/www.myreadingnation.com\/fort-peck-students-decorate-their-little-free-libraries\/",
+                "book_ecosystem": "Reading Nation Waterfall",
+                "theme": [
+                    "Scale of Impact",
+                    "Empowerment",
+                    "Books as Tools"
+                ],
+                "type": [
+                    "Blog Post"
+                ],
+                "subject": [
+                    "Imagination",
+                    "Child Development",
+                    "Impact",
+                    "Engagement"
+                ],
+                "author": "Tasia Pender"
+            }
+        },
+        {
+            "date_added": "2026-07-17",
+            "id": "q_owoo99d2pwp",
+            "values": {
+                "date_added": "2026-07-17",
+                "quote": "Students \u201cpaired\u2026 for their second Book Buddy event\u2026 third grade students read to the preschool book buddies\u201d",
+                "author": "Tasia Pender",
+                "type": [
+                    "Blog post"
+                ],
+                "book_ecosystem": "Reading Nation Waterfall",
+                "use_strategy": "Literacy activity is owned and enacted by students. Older students become literacy agents within the community.",
+                "link_to_source": "https:\/\/www.myreadingnation.com\/fort-peck-students-decorate-their-little-free-libraries\/",
+                "verified": "Yes"
+            }
+        },
+        {
+            "date_added": "2026-07-17",
+            "id": "q_l9si8of2z8s",
+            "values": {
+                "date_added": "2026-07-17",
+                "quote": "\u201cStudents are sharing the joy of reading and heading home with more books to continue reading with their families.\u201d",
+                "author": "Tasia Pender",
+                "type": [
+                    "Blog post"
+                ],
+                "book_ecosystem": "Reading Nation Waterfall",
+                "use_strategy": "Changing the reading culture of the whole community",
+                "link_to_source": "https:\/www.myreadingnation.com\/yurok-students-book-buddy-connections\/",
+                "verified": "Yes"
+            }
+        },
+        {
+            "date_added": "2026-07-17",
+            "id": "q_3ouvryq38t5",
+            "values": {
+                "date_added": "2026-07-17",
+                "quote": "\u201cThe Reading Nation Waterfall grant project has made profound strides in uplifting various Native American tribes, fostering literacy, and celebrating cultural richness.\u201d",
+                "author": "Tasia Pender",
+                "type": [
+                    "Blog post"
+                ],
+                "book_ecosystem": "Reading Nation Waterfall",
+                "use_strategy": "The project demonstrates multi-community impact that integrates literacy with cultural expression, indicating that outcomes extend beyond reading access to include cultural affirmation.",
+                "link_to_source": "https:\/\/www.myreadingnation.com\/empowering-tribal-communities-impact-of-reading-nation-waterfalls-grant-project-2024-update\/",
+                "verified": "Yes"
+            }
+        },
+        {
+            "date_added": "2026-07-17",
+            "id": "q_6y48d813i6j",
+            "values": {
+                "date_added": "2026-07-17",
+                "quote": "\u201cCollaboration with the language department\u2026 amplifying local artists, and nurturing budding authors.\u201d",
+                "author": "Tasia Pender",
+                "type": [
+                    "Blog post"
+                ],
+                "book_ecosystem": "Reading Nation Waterfall",
+                "use_strategy": "",
+                "link_to_source": "https:\/\/www.myreadingnation.com\/empowering-tribal-communities-impact-of-reading-nation-waterfalls-grant-project-2024-update\/",
+                "verified": "Yes"
+            }
+        },
+        {
+            "date_added": "2026-07-17",
+            "id": "q_7p3kkln3oi7",
+            "values": {
+                "date_added": "2026-07-17",
+                "quote": "\u201cLeveraged technology, athletics, and partnerships\u2026 promoting literacy as a cornerstone of community development.\u201d",
+                "author": "Tasia Pender",
+                "type": [
+                    "Blog post"
+                ],
+                "book_ecosystem": "Reading Nation Waterfall",
+                "use_strategy": "",
+                "link_to_source": "https:\/\/www.myreadingnation.com\/empowering-tribal-communities-impact-of-reading-nation-waterfalls-grant-project-2024-update\/",
+                "verified": "Yes"
+            }
+        },
+        {
+            "date_added": "2026-07-17",
+            "id": "q_7mmqerg3v19",
+            "values": {
+                "date_added": "2026-07-17",
+                "quote": "We have a lot of books for kids. And they all get used. Having it in front of the community center is perfect because that is where the 4H clubs meet and most of the classes, etc. happen. ",
+                "author": "Jo Harkins",
+                "type": [
+                    "Observation"
+                ],
+                "book_ecosystem": "Nebraska",
+                "use_strategy": "",
+                "link_to_source": "",
+                "verified": "Yes",
+                "theme": [
+                    ""
+                ]
+            }
+        },
+        {
+            "date_added": "2026-07-17",
+            "id": "q_2r0iyng43z4",
+            "values": {
+                "date_added": "2026-07-17",
+                "quote": "I do know our 4th grade class kids are the best little librarians there are. They have been great with changing out the new books and we have even had some of our community members donate books. It is very popular there.",
+                "author": "Jo Harkins",
+                "type": [
+                    "Observation"
+                ],
+                "book_ecosystem": "Nebraska",
+                "use_strategy": "",
+                "link_to_source": "",
+                "verified": "Yes",
+                "theme": [
+                    ""
+                ]
+            }
+        },
+        {
+            "date_added": "2026-07-17",
+            "id": "q_0gqj2nu49n1",
+            "values": {
+                "date_added": "2026-07-17",
+                "quote": "Board books are very popular with our patrons. They were distributed faster than the other titles, and we appreciate all books available for all readers.",
+                "author": "Valarie Bellson",
+                "type": [
+                    ""
+                ],
+                "book_ecosystem": "New Mexico\/Zuni Pueblo",
+                "use_strategy": "",
+                "link_to_source": "",
+                "verified": "Yes",
+                "theme": [
+                    ""
+                ]
+            }
+        },
+        {
+            "date_added": "2026-07-17",
+            "id": "q_szw93xv4hl8",
+            "values": {
+                "date_added": "2026-07-17",
+                "quote": "92% of children report greater access to books through Little Free Library book boxes",
+                "author": "Jackie Leonard",
+                "type": [
+                    "",
+                    "Testimonial"
+                ],
+                "book_ecosystem": "California",
+                "use_strategy": "",
+                "link_to_source": "",
+                "verified": "No",
+                "theme": [
+                    "",
+                    "Literacy",
+                    "Access",
+                    "Scale of Impact"
+                ],
+                "subject": [
+                    "Literacy",
+                    "Equity",
+                    "Child Development",
+                    "Book Donation",
+                    "Book Access"
+                ]
+            }
+        },
+        {
+            "date_added": "2026-07-17",
+            "id": "q_pwzqz204u2l",
+            "values": {
+                "date_added": "2026-07-17",
+                "quote": "Our K through 5 went from 28 proficiency last year to 44\u2026 their first grade reading scores were the highest in the district.",
+                "author": "Reading Nation Waterfall Tribe Member (unidentified)",
+                "type": [
+                    "Testimonial"
+                ],
+                "book_ecosystem": "Reading Nation Waterfall",
+                "use_strategy": "",
+                "link_to_source": "Form letter for sending to the Zuni for New Book Ecosystems",
+                "verified": "Yes",
+                "theme": [
+                    ""
+                ]
+            }
+        },
+        {
+            "date_added": "2026-07-17",
+            "id": "q_0knv3hp50lq",
+            "values": {
+                "date_added": "2026-07-17",
+                "quote": "These spaces...provide safe havens for children to read, learn, and dream.",
+                "author": "Sara Asad Syed",
+                "type": [
+                    ""
+                ],
+                "book_ecosystem": "Ukraine",
+                "use_strategy": "",
+                "link_to_source": "https:\/\/drive.google.com\/file\/d\/1Yy0gV4BUXOqabu_CSSOvsD1QHD_GyqTZ\/view?usp=drive_link",
+                "verified": "Yes",
+                "theme": [
+                    ""
+                ]
+            }
+        },
+        {
+            "date_added": "2026-07-17",
+            "id": "q_dbjhz9m573v",
+            "values": {
+                "date_added": "2026-07-17",
+                "quote": "Book ecosystems build comprehensive, community based systems that remove barriers to books and nurture a lifelong love of reading.",
+                "author": "Professor Chow",
+                "type": [
+                    ""
+                ],
+                "book_ecosystem": "Book Ecosystems",
+                "use_strategy": "This introduction to one of the goals of book ecosystems can help contribute to children's growth in learning despite difficulties, encouraging resilience in challenging times.",
+                "link_to_source": "https:\/\/docs.google.com\/document\/d\/1efJZTIXiDtbSbrSomWxbCLF81E7E9tTfwXhKC5TK5aM\/edit?tab=t.0#heading=h.natc48ngq1ya",
+                "verified": "Yes",
+                "theme": [
+                    "Literacy",
+                    "Education",
+                    "Nurture",
+                    "Community",
+                    "Resilience"
+                ]
+            }
+        },
+        {
+            "id": "q_sqi3i1qlct7",
+            "dateAdded": "2026-09-06T04:37:04.411Z",
+            "values": {
+                "author": "Julius Njiire, Librarian at Shelter Home Ngong",
+                "subject": [
+                    "Literacy",
+                    "Impact"
+                ],
+                "type": "Testimonial",
+                "theme": [
+                    "Literacy",
+                    "Reading"
+                ],
+                "book_ecosystem": "Kenya",
+                "verified": "Yes",
+                "quote": "The kids are very excited about the LFL and are always so eager for the next refill"
+            }
+        }
+    ]
+}
